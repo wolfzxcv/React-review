@@ -7,7 +7,7 @@ const Form = () => {
 
   return (
     <div>
-      <form onSubmit={ e=> (alert(`${input} ${comment} ${inst}`), e.preventDefault())}>
+      <form onSubmit={ e=> (alert(`${input} ${comment} ${inst}`),  e.preventDefault())}>
         <div>
           <label>username</label>
           <input type="text" value={input} onChange={e=> setInput(e.target.value)} />
